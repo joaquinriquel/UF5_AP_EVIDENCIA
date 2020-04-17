@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0px;
+}
+
+header {
+	padding: 2.5px
+}
+
+header img {
+	position: absolute;
+    right: 8%;
+    top: 10%;
+}
+
+.background {
+  background: url(./fotos/rugbyP3.jpg);
+  height: 145px;
+  border-radius: 10px;
+  margin: 2.5px;
+  position: relative;
+}
+
+header h1 {
+  color: white;
+  left: 31.5%;
+  position: relative;
+  display: inline-block;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 5px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: mediumseagreen;
+  border-radius: 10px;
+  border: 1px outset #0634e2;
+  height: auto;
+}
+
+li a {
+  display: block;
+  color: springgreen;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1185a4;
+}
+.borde {
+  border: 2px solid green;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+.flex_1,
+.flex_2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex_1 > div {
+	flex: 1;
+}
+
+.flex_2 div {
+  flex: 1;
+}
