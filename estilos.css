@@ -72,6 +72,7 @@ li a:hover {
 .flex_2 {
   display: flex;
   flex-wrap: wrap;
+  background-color:#efeefb;
 }
 
 .flex_1 > div {
