@@ -35,7 +35,6 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- 
 }
 
 ul {
@@ -75,7 +74,7 @@ li a:hover {
   flex-wrap: wrap;
   background-color:#efeefb;
   color: springgreen;
-
+}
 .flex_1 > div {
 	flex: 1;
 }
